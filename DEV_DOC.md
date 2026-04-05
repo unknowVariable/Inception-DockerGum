@@ -19,8 +19,8 @@ cd Inception
 
 ### 2. Créer les dossiers de données
 
-mkdir -p /home/<login>/data/mariadb
-mkdir -p /home/<login>/data/wordpress
+mkdir -p /home/aconstan/data/mariadb
+mkdir -p /home/aconstan/data/wordpress
 
 ---
 
@@ -28,8 +28,8 @@ mkdir -p /home/<login>/data/wordpress
 
 Créer le fichier `srcs/.env` :
 
-LOGIN=<login>
-DOMAIN_NAME=<login>.42.fr
+LOGIN=aconstan
+DOMAIN_NAME=aconstan.42.fr
 TZ=Europe/Paris
 
 MYSQL_DATABASE=wordpress
